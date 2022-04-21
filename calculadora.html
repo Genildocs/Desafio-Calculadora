@@ -9,86 +9,88 @@
 </head>
 <body>
     
-    
+   
     <div class="container">
-        
-        <div class="result">
-            0
+       
+        <h1>Calculadora</h1>
+
+        <div class="result" id="resultado" >
+            
         </div>
 
-        <div class="buttons">
+        <div class="buttons" >
 
-            <span class="button resetBtn">AC</span>
-     
-            <span class="button negative operator">
+            <span class="button resetBtn" onclick="clean()">AC</span>
+           
+            <span class="button negative operator" onclick="insert('+/-')">
                 +/-
             </span>
 
-            <span class="button operator percent">
+            <span class="button operator percent" onclick="insert('%')">
                 %
             </span>
 
-            <span class="button operator">
+            <span class="button operator" onclick="insert('/')">
                 /
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('7')">
                 7
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('8')">
                 8
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('9')">
                 9
             </span>
 
-            <span class="button operator">
+            <span class="button operator" onclick="insert('*')">
                 *
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('4')">
                 4
             </span>
             
-            <span class="button number">
+            <span class="button number" onclick="insert('5')">
                 5
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('6')">
                 6
             </span>
 
-            <span class="button operator">
+            <span class="button operator" onclick="insert('-')">
                 -
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('1')">
                 1
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('2')">
                 2
             </span>
 
-            <span class="button number">
+            <span class="button number" onclick="insert('3')">
                 3
             </span>
 
-            <span class="button operator">
+            <span class="button operator" onclick="insert('+')">
                 +
             </span>
 
-            <span class="button number zero">
+            <span class="button number zero" onclick="insert('0')">
                 0
             </span>
 
-            <span class="button number dot">
+            <span class="button number dot" onclick="insert('.')">
                 .
             </span>
 
-            <span class="button operator">
+            <span class="button igual" onclick="confirma()">
                 =
             </span>
 

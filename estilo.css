@@ -9,19 +9,26 @@ body{
     display: flex;
     justify-content:center; 
     align-items:flex-start;
+    background-color:slateblue;
     
 }
+
 
 .container{
     display: flex;
     flex-wrap: wrap;
     min-width:400px;
-    margin-top: 200px;
+    margin-top: 150px;
     border: 15px solid goldenrod;
     background: goldenrod;
     border-radius: 15px;
-    
-    
+    justify-content: center;  
+        
+}
+
+h1{
+    color: white;
+    font-family: 'Bangers';
 }
 
 .buttons, .result{
